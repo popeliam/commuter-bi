@@ -15,8 +15,7 @@ def getCommutes():
 	cur.execute('''
 	SELECT commute_id,from_lat_long,to_lat_long 
 	FROM commutes
-	WHERE is_active AND 1 = 2
-		--AND commute_id = '2_1'
+	WHERE is_active 
 		AND start_time <= current_time
 		AND stop_time >= current_time
 	''')
