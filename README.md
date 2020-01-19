@@ -1,5 +1,5 @@
 # commuter-bi
-Python and SQL scripts for a data pipeline from Google Maps & NWS APIs to Postgres and finally Tableau. 
+Python and SQL scripts for a data pipeline from Google Maps & NWS APIs to Postgres, Google Sheets, and finally Tableau. 
 
 To Do:
 - add db config script
